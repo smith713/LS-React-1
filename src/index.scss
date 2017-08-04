@@ -1,2 +1,65 @@
 // global styles go in here. 
 // When you start writing styles for your individual components you'll have to start importing them
+
+.complete {
+    text-decoration: line-through;
+}
+ 
+#root label {
+    display: block;
+    margin-bottom: 10px;
+}
+ 
+#root input[type="text"] {
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+#root textarea {
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+#root ul {
+    list-style-type: none;
+    padding-left: 0;
+             
+}
+ 
+#root li {
+    margin: 5px 0;
+    background: #fcfcfc;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+ 
+#root li input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+#root li textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+#root li h2 {
+    margin-top: 0;
+}
+
+.btn-danger {
+    color: #FFFFFF;
+    background: #FF0000;
+}
+
+.btn-success {
+    color: #FFFFFF;
+    background: #00FF00;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background: #0000FF;
+}
